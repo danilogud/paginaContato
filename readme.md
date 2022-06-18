@@ -1,0 +1,1 @@
+Esta é uma página de contato, onde as informações são inseridas pelo usuário e armazenadas pelo banco de dados

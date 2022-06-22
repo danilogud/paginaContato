@@ -2,43 +2,83 @@
 <html lang = "pt-BR">
 
 <head>
-<title>Voltando aos poucos</title>
+<title>Contato</title>
 <meta name="author" content = "Danilo Gonçalves">
 <meta charset="UTF-8">
 <link href="style.css"rel="stylesheet">
+<script src="https://kit.fontawesome.com/75d1dfc95e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>CONTATO</h1>
 
-    <table>
-    </table>
+    <header>
+        <div class ="container">
+            <div id="logo">
+                <a href="#">
+                    <img src="logo-generic.png" title="logo" alt="logo">
+                </a>
+            </div>
+        
+        <nav>
+            <a href="#">Pagina inicial</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </nav>
+      </div>
+    </header>
 
-    <form
-        name ="primeiro_formulario"
-        method ="POST"
-        action = "gravaDado.php"
-        enctype="multipart/form-data"
-        >
+    <main>
+        <div id="cabecalho-interno">
+            <div class="container">
+                <h1>CONTATO</h1>
+                <h5>Use o seguinte formulário para entrar em contato com nosso atendimento</h5>
+            </div>
+        </div>
+   
+
+    <article class="container">
+    <form name ="formulario_contato" method ="POST" action = "gravaDado.php" enctype="multipart/form-data">
     
-    <label>Destinatário:</label>
-    <br>
-    <select name = "assunto">
-        <option value ="arquivo">Comunicação</option>
-        <option value ="financeiro">Financeiro</option>
-        <option value ="urb">Arquivos</option>
-    </select>
-    <br><br>
-  
-    <label>Mensagem:</label>
-    <br>
-    <textarea placeholder="Digite sua mensagem"></textarea>
-    <br>
-    
-    <button>Enviar</button>
+        <div class="linha">
+        <label>Nome Completo</label>
+        <br>
+        <input type="text" name="nome" size="50" placeholder="Digite seu nome completo">
+        </div>
 
+        <div class="linha">
+            <div class="coluna">
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+            </div>
 
-</form>
+            <div class="coluna">
+                <label>Telefone</label>
+                <input type="email" name="number" placeholder="Digite seu telefone"></input>
+            </div>
+
+            <div style="clear:both"></div> <!-- Esse ponto é necessário para impedir que a próxima div entre em colapso -->
+
+            <div class="linha">
+                <label>Assunto</label>
+                <input type="text" name="assunto" size="50" placeholder="Informe o assunto">
+            </div>
+
+            <div class="linha">
+                <label>Mensagem</label>
+                <textarea name="mensagem" placeholder="Digite a mensagem" rows="5" cols="50"></textarea>
+            </div>
+
+            <div class="linha">
+                <input type="submit" name="submit" value="Enviar mensagem" class="btn-enviar">
+            </div>
+
+    </form>
+    </article>
+    </main>
+
+<footer>
+    2022 | Todos os direitos reservados.
+</footer>
 </body>
-
 </html>

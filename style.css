@@ -3,3 +3,7 @@ body{
     color:black;
     font-size: 16px;
 }
+
+.container img {
+    max-width: 100px;
+}

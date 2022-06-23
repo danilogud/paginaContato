@@ -1,9 +1,107 @@
+/* Código das cores obtidos em: https://color.adobe.com/pt/create/color-wheel 
+*/
+
+/* Remoção das propriedades margin e paddin padrão dos navegadores*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
 body{
     font-family: "Georgia";
-    color:black;
-    font-size: 16px;
+    color:#111;
+}
+
+a{
+    color:#510aa8;
+}
+
+header{
+    height:80px;
+    background-color: #111;
 }
 
 .container img {
-    max-width: 100px;
+    max-width: 120px;
+    float:left;
+    margin-bottom:10px;
+}
+
+nav{
+    float:right;
+    margin-top:30px;
+}
+
+nav a{
+    color:#f4f4f4;
+    text-decoration: none; /* remoção da sublinha do link */
+    padding: 30px 20px ;
+}
+
+nav a:hover{
+    background-color: #31d1bb;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h5{
+    color:#777;
+    padding: 5px 0 0 5px;
+}
+
+article{
+    padding:30px 0;
+}
+
+label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer{
+    text-align:center;
+    background-color: #31d1bb;
+    margin-top: 50px;
+    padding: 20px 0;
+    color:#111;
+}
+
+input{
+    width:calc(100% - 20px); /*calc determina o tamanho máximo*/
+    padding:10px;
+}
+
+textarea{
+    width:calc(100% - 20px);
+    padding: 10px;
+}
+
+#cabecalho-interno{
+    padding:50px;
+    background-color:#ccc;
+}
+
+.container{ /*Colocou-se margem em todos os dois containers, dando impressão de centralização*/
+    width:960px;
+    margin: 0 auto;
+}
+.btn-enviar{
+    background-color: #02bb1a;
+    border:solid 1px #016b0f;
+    color:white;
+    padding:20px;
+    width:100%;
+}
+
+.linha{
+    margin:10px 0 20px 0;
+    width:100%;
+    
+}
+
+.coluna{
+    width: 50%;
+    float:left;;
 }

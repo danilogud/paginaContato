@@ -30,6 +30,7 @@ header{
 nav{
     float:right;
     margin-top:30px;
+    min-height: 80px;
 }
 
 nav a{
@@ -81,6 +82,17 @@ textarea{
 #cabecalho-interno{
     padding:50px;
     background-color:#ccc;
+}
+
+#quem-somos{
+    min-height: 600px;
+    background-image: url('../img/programming-g5c8240fc6_1920.jpg');
+    background-color: #000;
+}
+
+.sobrepocicao{
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .container{ /*Colocou-se margem em todos os dois containers, dando impressão de centralização*/

@@ -47,11 +47,25 @@ h1{
     font-size: 60px;
 }
 
+h2 {
+    color: #111;
+    font-size: 50px;
+    text-align: center;
+}
+
 h5{
     color:#777;
     padding: 5px 0 0 5px;
 }
 
+p {
+    color: #111;
+    font-size: 20px;
+    text-align: justify;
+
+    
+
+}
 article{
     padding:30px 0;
 }
@@ -86,8 +100,12 @@ textarea{
 
 #quem-somos{
     min-height: 600px;
-    background-image: url('../img/programming-g5c8240fc6_1920.jpg');
-    background-color: #000;
+    background-image: url('../img/gui-g724693a14_1280.png');
+    background-position: center;
+    background-size: calc(100%);
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background-image: var(100% - 20px);
 }
 
 .sobrepocicao{

@@ -1,1 +1,1 @@
-Esta é uma página de contato, onde as informações são inseridas pelo usuário e armazenadas pelo banco de dados.
+Desenvolvimento de um site fictício para a situação de uma empresa de tecnologia. Temos o index, apresentando a página inicial com informações sobre a empresa e seu foco no mercado. A página quem-somos busca mostrar resumidamente as atuações no ramo. A página de produtos dá atenção às características dos produtos. Por fim, temos a página de contato, que permite ao usuário enviar uma mensagem à empresa.

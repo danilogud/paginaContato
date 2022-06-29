@@ -31,6 +31,10 @@ td img{
     width: 25px;
     max-width: 120px;
     height: 25px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 nav{
     float:right;
@@ -111,6 +115,9 @@ textarea{
     background-image: var(100% - 20px);
 }
 
+#logo-navb {
+    width:50px;
+}
 .sobrepocicao{
     min-height: 600px;
     background-color: rgba(0, 0, 0, 0.7);
